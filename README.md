@@ -1,22 +1,65 @@
 # Heart-Disease-Prediction
-Thus preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate.
+⸻
 
-The project involved analysis of the heart disease patient dataset with proper data processing. Then, different models were trained and and predictions are made with different algorithms KNN, Decision Tree, Random Forest,SVM,Logistic Regression etc
-This is the colab notebook code and dataset I've used for my Kaggle kernel 'Binary Classification with Sklearn and Keras'
+🫀 Heart Disease Prediction Using Machine Learning
 
-I've used a variety of Machine Learning algorithms, implemented in Python, to predict the presence of heart disease in a patient. This is a classification problem, with input features as a variety of parameters, and the target variable as a binary variable, predicting whether heart disease is present or not.
+📌 Overview
 
-Machine Learning algorithms used:
+Heart disease is one of the leading causes of mortality worldwide, and timely prediction is crucial for effective prevention and treatment. Data-driven solutions powered by Machine Learning (ML) can play a pivotal role in early diagnosis, potentially saving countless lives. This project focuses on applying ML techniques to predict the presence of heart disease in patients based on medical attributes.
 
-1. Logistic Regression (Scikit-learn)
-2. Naive Bayes (Scikit-learn)
-3. Support Vector Machine (Linear) (Scikit-learn)
-4. K-Nearest Neighbours (Scikit-learn)
-5. Decision Tree (Scikit-learn)
-6. Random Forest (Scikit-learn)
-7. XGBoost (Scikit-learn)
-8. Artificial Neural Network with 1 Hidden layer (Keras)
+⸻
 
-Accuracy achieved: 95% (Random Forest)
+📊 Dataset
+	•	Source: Heart Disease UCI Dataset — Kaggle
+	•	Type: Binary classification
+	•	Features: Various clinical and demographic factors
+	•	Target: Presence (1) or absence (0) of heart disease
 
-Dataset used: https://www.kaggle.com/ronitf/heart-disease-uci
+⸻
+
+🛠️ Methodology
+
+The workflow followed in this project includes:
+	•	Data Loading & Preprocessing
+Cleaning the dataset, handling missing values, encoding categorical variables, and normalizing features where necessary.
+	•	Exploratory Data Analysis (EDA)
+Understanding feature distributions, correlations, and relationships within the data.
+	•	Model Building & Training
+Multiple ML algorithms were implemented and compared for performance.
+	•	Performance Evaluation
+Accuracy and other metrics like precision, recall, F1-score, and ROC-AUC were used to assess model performance.
+
+⸻
+
+🤖 Machine Learning Models Used
+
+The following models were developed and tested using Python libraries like Scikit-learn and Keras:
+	1.	Logistic Regression
+	2.	Naive Bayes
+	3.	Support Vector Machine (Linear Kernel)
+	4.	K-Nearest Neighbors (KNN)
+	5.	Decision Tree Classifier
+	6.	Random Forest Classifier
+	7.	XGBoost Classifier
+	8.	Artificial Neural Network (ANN) — 1 Hidden Layer (Keras)
+
+⸻
+
+🎯 Results
+	•	Best Accuracy Achieved: 95%
+	•	Top Performing Model: Random Forest Classifier
+
+⸻
+
+📓 Development Environment
+	•	Platform: GoogleColab (Colab Notebook)
+	•	Language: Python
+	•	Libraries: Scikit-learn, Keras, XGBoost, Pandas, NumPy, Matplotlib, Seaborn
+
+⸻
+
+📍 Conclusion
+
+This project demonstrated how Machine Learning algorithms can be effectively used to predict heart diseases with high accuracy. The Random Forest classifier, in particular, delivered outstanding performance. By integrating such models into healthcare systems, early detection of heart conditions can be significantly improved, ultimately saving lives.
+
+⸻
